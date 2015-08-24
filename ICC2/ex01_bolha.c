@@ -43,7 +43,7 @@ void bolha(int numeros[], int N)
  int ivet, isubv, temp;
     for (ivet=N-1; ivet>0; ivet--)
     {
-      for (isub=0; isubv<ivet; isubv++)
+      for (isubv=0; isubv<ivet; isubv++)
         if (numeros[isubv]>numeros[isubv+1])
         {
 	  temp = numeros[isubv];
